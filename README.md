@@ -23,4 +23,4 @@ The deployment package zipfile is left in the working directory, whereas the dir
 
 ### Docker Image Config
 
-The directory, `docker_image_config` holds two files: the `Dockerfile` used in creating the custom Docker image; and the bash script used in deploying the Lambda function. These are not used as part of the compilation and deployment process.
+The directory `docker_image_config` holds two files: the `Dockerfile` used in creating the custom Docker image; and the bash script used in deploying the Lambda function. These are not used as part of the compilation and deployment process.
