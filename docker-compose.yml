@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  compile_and_deploy:
+    image: worgarside/aws_lambda:python3.7
+    env_file:
+      - .env
+    volumes:
+      - .:/var/task/app/
