@@ -10,7 +10,7 @@ The only dependency for this project is Docker, the rest is taken care of by a c
  
 #### Local File Requirements
  
-- An envfile is needed to set the AWS credentials and Lambda function name. A sample file is provided to show what is needed. 
+- An envfile (`.env`) is needed to set the AWS credentials and Lambda function name. A sample file is provided to show what is needed. 
 - A `requirements.txt` is also needed to set the Lambda functions dependencies.
 
 ### Installation and Use
